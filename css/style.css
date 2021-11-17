@@ -1,0 +1,103 @@
+/*Accordion css start here*/
+#accordion_part {}
+.acc-container-fluid {
+    width: 50%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.acc-container-fluid h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: green;
+}
+/*Accordion css end here*/
+/*Alert Start*/
+.alert_container {
+	width: 50%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.link_alert_container {
+	width: 50%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+/*Alert End*/
+/*Badges Start*/
+.badges_container {
+	width: 50%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.badges_container p {
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+    font-size: 45px;
+}
+/*Badges End*/
+/*BreadCrumb Start*/
+.breadCrumb_container {
+	width: 50%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+/*BreadCrumb End*/
+/*Buttons Start*/
+.button_container {
+	width: 50%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+/*Buttons End*/
+/*Card Start*/
+.card_container {
+	width: 50%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+/*Card End*/
+/*Dropdown Start*/
+#dropdowns {
+	overflow: hidden;
+}
+.drExample01 {
+	width: 20%;
+	float: left;
+}
+.drExample02 {
+	width: 20%;
+	float: left;
+}
+.drExample03 {
+    width: 45%;
+    float: left;
+}
+/*Dropdown End*/
+/*List Group Start*/
+.list_style {
+	max-width: 400px;
+}
+/*List Group End*/
+/*modal start*/
+#modal {}
+/*modal end*/
+section#spinners {
+    width: 22%;
+    margin: 0 auto;
+    padding-top: 10px;
+}

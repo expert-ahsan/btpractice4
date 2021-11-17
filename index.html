@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <title>Bootstrap Practice4</title>
+  </head>
+  <body>
+    <section id="accordion_part">
+      <div class="acc-container-fluid">
+        <h1>Accordion Practice</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<br><br>
+    <section id="alert_part">
+      <div class="alert_container">
+        <div class="alert alert-primary" role="alert">
+          A simple primary alert—check it out!
+        </div>
+        <div class="alert alert-secondary" role="alert">
+          A simple secondary alert—check it out!
+        </div>
+        <div class="alert alert-success" role="alert">
+          A simple success alert—check it out!
+        </div>
+        <div class="alert alert-danger" role="alert">
+          A simple danger alert—check it out!
+        </div>
+        <div class="alert alert-warning" role="alert">
+          A simple warning alert—check it out!
+        </div>
+        <div class="alert alert-info" role="alert">
+          A simple info alert—check it out!
+        </div>
+        <div class="alert alert-light" role="alert">
+          A simple light alert—check it out!
+        </div>
+        <div class="alert alert-dark" role="alert">
+          A simple dark alert—check it out!
+        </div>
+      </div>
+    </section>
+<br><br>
+    <section id="link_alert_part">
+      <div class="link_alert_container">
+        <div class="alert alert-primary" role="alert">
+          A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-secondary" role="alert">
+          A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-success" role="alert">
+          A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-danger" role="alert">
+          A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-warning" role="alert">
+          A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-info" role="alert">
+          A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-light" role="alert">
+          A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-dark" role="alert">
+          A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+      </div>
+    </section>
+<br><br>
+<section id="badges">
+  <div class="badges_container">
+    <!-- Heading start -->
+    <p>Headings</p>
+    <h1>Example heading <span class="badge bg-primary">New</span></h1>
+    <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+    <h3>Example heading <span class="badge bg-success">New</span></h3>
+    <h4>Example heading <span class="badge bg-danger">New</span></h4>
+    <h5>Example heading <span class="badge bg-warning">New</span></h5>
+    <h6>Example heading <span class="badge bg-info">New</span></h6>
+    <!-- Heading end -->
+    <br>
+    <!-- With Background colors -->
+    <span class="badge bg-primary">Primary</span>
+    <span class="badge bg-secondary">Secondary</span>
+    <span class="badge bg-success">Success</span>
+    <span class="badge bg-danger">Danger</span>
+    <span class="badge bg-warning text-dark">Warning</span>
+    <span class="badge bg-info text-dark">Info</span>
+    <span class="badge bg-light text-dark">Light</span>
+    <span class="badge bg-dark">Dark</span>
+    <!-- With Background colors -->
+    <br><br>
+    <!-- Pill badges -->
+    <span class="badge rounded-pill bg-primary">Primary</span>
+    <span class="badge rounded-pill bg-secondary">Secondary</span>
+    <span class="badge rounded-pill bg-success">Success</span>
+    <span class="badge rounded-pill bg-danger">Danger</span>
+    <span class="badge rounded-pill bg-warning text-dark">Warning</span>
+    <span class="badge rounded-pill bg-info text-dark">Info</span>
+    <span class="badge rounded-pill bg-light text-dark">Light</span>
+    <span class="badge rounded-pill bg-dark">Dark</span>
+    <!-- Pill badges -->
+  </div>
+</section>
+<br>
+<section id="breadCrumb_part">
+  <div class="breadCrumb_container">
+    <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
+
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+
+<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+  </div>
+</section>
+<br><br>
+<section class="buttons">
+  <div class="button_container">
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+<br><br>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-light">Light</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+<br><br>
+<div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+<br><br>
+<div class="d-grid gap-2 d-md-block">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+<br><br>
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+<br><br>
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn btn-primary me-md-2" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+  </div>
+</section>
+<br>
+<section id="card_part">
+  <div class="card_container">
+    <div class="card" style="width: 18rem;">
+    <img src="./image/butterfly.jpg" class="card-img-top" alt="butterfly">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>
+</section>
+<br>
+<section id="carousel">
+  <div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./image/butterfly.jpg" class="d-block w-100" alt="butterfly">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./image/butterfly2.jpg" class="d-block w-100" alt="butterfly">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./image/butterfly3.jpg" class="d-block w-100" alt="butterfly">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+</section>
+<br>
+<section id="dropdowns">
+  <div class="drExample01">
+    <h5>Single button</h5>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+  </div>
+<div class="drExample02">
+  <h5>And with <code>< a></code> elements:</h5>
+  <div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+</div>
+<div class="drExample03">
+  <p>The best part is you can do this with any button variant, too:</p>
+  <!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Danger
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Primary
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Secondary
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Success
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Info
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Warning
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+</div>
+<!-- Example split danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+</section>
+<br>
+<section id="list_group">
+<div class="basic_list">
+  <ul class="list-group list_style">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+</div>
+<div class="active_items">
+  <ul class="list-group list_style">
+    <li class="list-group-item active" aria-current="true">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+</div>
+<div class="disabled_item">
+  <ul class="list-group list_style">
+    <li class="list-group-item disabled" aria-current="true">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+</div>
+</section>
+<section id="modal">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<br>
+<section id="backdrop">
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Enable backdrop (default)</button>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Try scrolling the rest of the page to see this option in action.</p>
+  </div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdroped with scrolling</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Try scrolling the rest of the page to see this option in action.</p>
+  </div>
+</div>
+</section>
+<section id="spinners">
+  <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<br>
+<div class="spinner-grow text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+</section>
+<section id="toast">
+  <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+  <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
+</div>
+</section>
+<br>
+<section id="modal">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var myModal = document.getElementById('myModal')
+      var myInput = document.getElementById('myInput')
+
+      myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+      })
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
